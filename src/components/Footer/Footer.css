@@ -1,0 +1,26 @@
+.footer {
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 90%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .activities {
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+
+.footer .activities:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.footer .pen {
+    padding: 20px;
+    color: white;
+    border-radius: 50%;
+    background-color: black;
+}

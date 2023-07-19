@@ -1,0 +1,30 @@
+.container {
+    text-align: center;
+    margin: 100px 0 0 0;
+    position: relative;
+}
+
+.h1 {
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+
+input {
+    font-size: large;
+    width: 35%;
+    padding: 10px 0;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* responsive for smartphone devices */
+@media screen and (max-width: 768px) {
+    input {
+        width: 80%;
+    }
+}

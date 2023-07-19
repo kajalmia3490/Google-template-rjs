@@ -1,0 +1,32 @@
+.header {
+    height: 80px;
+    margin: 50px 50px;
+}
+
+.header ul {
+    list-style-type: none;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.header a {
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.header .man {
+    font-size: 25px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+.header .apps {
+    font-size: 30px;
+}
